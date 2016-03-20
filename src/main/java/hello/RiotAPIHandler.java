@@ -9,7 +9,7 @@ import org.bson.Document;
 
 public class RiotAPIHandler {
 	
-private final static String API_Key="7e3cdb8c-9f49-4db3-9ed8-1d905723bf03";
+private final static String API_Key="";
 private final static String SummonerName="GedyHD";
 
 public static void main(String[] args) throws Exception {

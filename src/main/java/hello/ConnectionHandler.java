@@ -10,18 +10,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class ConnectionHandler {
 
 	private final String USER_AGENT = "Mozilla/5.0";
-//
-//	public static void main(String[] args) throws Exception {
-//
-//		ConnectionHandler http = new ConnectionHandler();
-//
-//		System.out.println("Testing 1 - Send Http GET request");
-//		http.sendGet("https://eune.api.pvp.net/api/lol/eune/v1.4/summoner/by-name/GedyHD?api_key=7e3cdb8c-9f49-4db3-9ed8-1d905723bf03");
-//		
-//		System.out.println("\nTesting 2 - Send Http POST request");
-//		http.sendPost();
-//
-//	}
+
 
 	// HTTP GET request
 	public String sendGet(String url) throws Exception {
